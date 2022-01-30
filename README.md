@@ -1,8 +1,8 @@
-Our project is based on the implementation of the  Ekert protocol. It includes the code for the authentication of the interface for communication between the users Alice and Bob, for sending messages, and the shared key between them.
+Our project is based on the implementation of the  Ekert protocol. It includes the code for the authentication of the interface for communication between the users Alice and Bob for sending messages, and the shared key between them.
 Alice and Bob choose a basis randomly. Alice then encodes each bit of message onto a string of qubits using the basis she chose, and she sends the encoded message to Bob. Bob measures the message using his selected basis.
 Alice and Bob share the bases they use over the interface, and the code calculates the common gates used in Alice and Bob's bases to form the shared key between them. 
 
-The Ekert protocol is an entanglement-based protocol that uses maximally entangled Bell states emitted by a common source and distributed between Alice and Bob. If Eve interacts with the state shared between Alice and Bob, it will not remain maximally entangled, and Alice and Bob can check how much Eve has interacted with the state. We have implemented the algorithm using Qiskit integrated with Quantum Inspire platform. The communication channel between Alice and Bob has been establied via twitter using tweetypy python module.
+The Ekert protocol is an entanglement-based protocol that uses maximally entangled Bell states emitted by a common source and distributed between Alice and Bob. If third person Eve interacts with the state shared between Alice and Bob, it will not remain maximally entangled anymore, and Alice and Bob can check how much Eve has interacted with the state. We have implemented the algorithm using Qiskit integrated with Quantum Inspire platform. The communication channel between Alice and Bob has been establied via twitter using tweetypy python module.
 
 Team Experience: 
 The MIT iQuHACK 2022 has been an incredible experience. 
