@@ -1,3 +1,6 @@
+
+![image](/schematic_team.png)
+
 Our project is based on the implementation of the  **Ekert protocol**. It includes the code for an interface for secure communication line between the users *Alice& and *Bob* by having shared key between them.
 
 The Ekert protocol is an **entanglement-based protocol** that uses maximally entangled Bell states emitted by a common source and distributed between Alice and Bob. If third person *Eve* interacts with the state shared between Alice and Bob, it will not remain maximally entangled anymore, and *Alice* and *Bob* can check how much Eve has interacted with the state. We have implemented the algorithm using **Qiskit** integrated with **Quantum Inspire** on the **qBriad** platform. The classical communication channel between Alice and Bob has been established using the **Twitter API** through the tweepy python module.
